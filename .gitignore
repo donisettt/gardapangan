@@ -1,0 +1,74 @@
+# -----------------------
+# FLUTTER & DART
+# -----------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+
+# -----------------------
+# ANDROID
+# -----------------------
+android/**/*.class
+android/**/*.dex
+android/app/libs/
+android/app/src/main/assets/
+android/gradle/
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/project.properties
+android/*.iml
+android/app/*.iml
+
+# Keystore (Kunci Tanda Tangan Aplikasi - RAHASIA)
+android/key.properties
+**/*.jks
+**/*.keystore
+
+# Google Services (RAHASIA - Jangan diupload ke publik)
+android/app/google-services.json
+
+# -----------------------
+# IOS
+# -----------------------
+ios/*.mode1v3
+ios/*.mode2v3
+ios/*.moved-aside
+ios/*.pbxuser
+ios/*.perspectivev3
+ios/flutter/App.framework
+ios/flutter/Flutter.framework
+ios/flutter/Generated.xcconfig
+ios/flutter/app.flx
+ios/flutter/app.zip
+ios/flutter/flutter_assets/
+ios/Podfile.lock
+ios/Pods/
+ios/.symlinks/
+
+# Google Services iOS
+ios/Runner/GoogleService-Info.plist
+
+# -----------------------
+# IDE & EDITOR (VS Code / Android Studio)
+# -----------------------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# -----------------------
+# EXCEPTIONS (PENGECUALIAN)
+# -----------------------
+# Kadang kita butuh gradlew agar orang lain bisa build tanpa install gradle manual
+!android/gradlew
+!android/gradlew.bat
+!android/gradle/wrapper/gradle-wrapper.jar
