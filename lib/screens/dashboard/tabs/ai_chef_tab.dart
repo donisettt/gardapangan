@@ -12,7 +12,7 @@ class AiChefTab extends StatefulWidget {
 
 class _AiChefTabState extends State<AiChefTab> {
   // TODO: Simpan API Key di tempat aman (.env) untuk produksi
-  static const String _apiKey = 'AIzaSyB8Z5FEenBl8tFG5EJq2M2YE82t3muXOQk'; 
+  static const String _apiKey = 'GANTI_INI_DENGAN_KUNCI_BARU_DARI_KONSOL_ANDA';
   
   final TextEditingController _controller = TextEditingController();
   final List<Map<String, String>> _chatHistory = [];
